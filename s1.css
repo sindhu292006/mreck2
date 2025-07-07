@@ -1,0 +1,20 @@
+.container{
+    height:600px;
+    border:2px solid black;
+    display:flex;
+    
+    /*flex-direction: column-reverse;*/
+    gap:30px;
+    overflow: hidden;
+   background-image: url('https://tse4.mm.bing.net/th/id/OIP.RG58DaO7kXIPA2oTSLS6kAHaE8?pid=Api&P=0&h=180');
+}
+.box{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    text-align:center;
+    justify-content: center;
+    color:greenyellow;
+    background-color:black;
+    border-radius:3px;
+}
