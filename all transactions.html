@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+        h2{
+            color: #333;
+        }
+        .example{
+          width: 150px;
+          height: 150px;
+          margin: 20px;
+          background-color: steelblue;
+          border: 3px solid black;
+          border-radius: 10px;
+          display: inline-block;
+          transition: all 0.5s ease;
+        }
+        /*1.Background Color*/
+        .bg:hover{
+            background-color: tomato;
+
+        }
+        /*2.Width & Height*/
+        .size:hover{
+            width: 200px;
+            height: 200px;
+        } 
+        /*3.border*/
+        .border:hover{
+            border-width: 10px;
+            background-color: red;
+        }
+        .opacity:hover{
+            opacity:0.3;
+        }
+        .scale:hover{
+            transform: scale(1.3);
+
+        }
+        .rotate:hover{
+            transform: rotate(120deg);
+        }
+        .move:hover{
+            transform: translateX(50px);
+        }
+        .multi:hover{
+            background-color: orange;
+            transform: rotate(30deg) scale(1.2);
+            border-radius: 50%;
+        }
+        /*Styling the boxes*/
+        .box-label{
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .box-container{
+            display:inline-block;
+            text-align:center ;
+        }
+    </style>
+</head>
+<body>
+    <h1>All types of CSS transactions</h1>
+    <div class="box-container">
+        <div class="box-label">Background Color</div>
+        <div class="example bg"></div>
+    </div>
+    <div class="box-container">
+        <div class="box-label">Size</div>
+        <div class="example size"></div>
+    </div>
+    <div class="box-container">
+        <div class="box-label">border</div>
+        <div class="example border"></div>
+    </div>
+    <div class="box-container">
+        <div class="box-label">opacity</div>
+        <div class="example opacity"></div>
+        </div>
+        <div class="box-container">
+        <div class="box-label">Scale</div>
+        <div class="example scale"></div>
+        </div>
+        <div class="box-container">
+        <div class="box-label">rotate</div>
+        <div class="example rotate"></div>
+    </div>
+    <div class="box-container">
+        <div class="box-label">move</div>
+        <div class="example move"></div>
+    </div>
+    <div class="box-container">
+        <div class="box-label">multipple</div>
+        <div class="example multi"></div>
+    </div>
+</body>
+</html>
